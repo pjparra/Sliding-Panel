@@ -62,11 +62,11 @@ There are a few options to make Sliding Panel more flexible. Here they are, with
     * The CSS class applied to the sliding panel
 * __tabClass__: 'slidingpanel_tab'
     * The CSS class applied to the tab allowing mouseover
-* __wrapperTemplate__: '<div></div>'
+* __wrapperTemplate__: '&lt;div&gt;&lt;/div&gt;'
     * The template used as a wrapper
-* __tabTemplate__: '<div></div>'
+* __tabTemplate__: '&lt;div&gt;&lt;/div&gt;'
     * The template used as a tab
-* __tabText__: 'E<br/>X<br/>A<br/>M<br/>P<br/>L<br/>E'
+* __tabText__: 'E&lt;br/&gt;X&lt;br/&gt;A&lt;br/&gt;M&lt;br/&gt;P&lt;br/&gt;L&lt;br/&gt;E'
     * The tab text
 * __openByDefault__: [_true_, false]
     * Defines whether the panel should be open by default or closed
