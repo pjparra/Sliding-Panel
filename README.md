@@ -1,3 +1,5 @@
+#Some context
+
 Sliding Panel is a lightweight, unobtrusive, yet extremely useful and effective jQuery plugin.
 
 Its goal is to provide a simple way to turn any DOM element into a retractable, sliding panel. It was created to fulfill the need of showing examples on unoome (in french only for the moment), a service aimed at small/medium enterprises/associations with no IT skill to easily create websites. So a really easy and intuitive help was needed, and that's how Sliding Panel was born.
@@ -8,62 +10,63 @@ Hopefully, it was designed with extensibility in mind, so you can use it not onl
 
 And you're ready to go. The flexibility given by the settings should allow you to tune the plugin the way you like. Of course, it comes with a default CSS, but you can customize it to make it fit your needs.
 
-Usage
+#Usage
 
-JS
+##JS
 
 Just call:
 
     $('#example').slidingPanel(options);
 
-HTML
+##HTML
 
 Just any valid HTML element:
 
-    <div id="example">A nice looking example...</div> 
+    <div id="example">A nice looking example...</div>
 
-CSS
+##CSS
 
 A CSS file is included in the downloadable package. But you might want to add some custom CSS to make the integration more seamless. The CSS looks like this:
 
     .slidingpanel_tab {
-    background-color: #eee  ;
-    color: #aaa  ;
-    text-align: center;
-    font-size: 18px;
-    line-height: 22px;
-    cursor: pointer;
-    padding: 2px;
+        background-color: #eee  ;
+        color: #aaa  ;
+        text-align: center;
+        font-size: 18px;
+        line-height: 22px;
+        cursor: pointer;
+        padding: 2px;
     }
 
 You can edit it the way you want, all the important CSS is set by the plugin itself, so there is no risk that you break something. However, to facilitate the updates, I would highly recommend you to leave this file untouched and create another one which contain all your custom CSS rules, possibly overriding the default ones.
-Options
+
+##Options
 
 There are a few options to make Sliding Panel more flexible. Here they are, with their default values:
 
-    position: ['top', 'right', 'bottom', 'left']
-    Defines where to put the sliding panel on the webpage.
-    offset: {}
-    Allows to finely tune position, relatively to top, right, bottom or left side of the positioned container, or combination of two (top and right for example: {top: '150px', right: '-10px'})
-    speed: 250
-    Sets the speed of the sliding effect on opening and closing
-    timeout: 500
-    Will wait "timeout" ms before closing the panel after the mouse has left the panel
-    event: ['hover', 'click']
-    Allows to control the panel either by hover or by click
-    hideTriggerClass: 'slidingpanel_hide_trigger'
-    A class to define which element(s) will close the panel (useful only with openByDefault: true)
-    wrapperClass: 'slidingpanel_wrapper'
-    The CSS class applied to the sliding panel wrapper
-    slidingElementClass: 'slidingpanel_element'
-    The CSS class applied to the sliding panel
-    tabClass: 'slidingpanel_tab'
-    The CSS class applied to the tab allowing mouseover
-    wrapperTemplate: '<div></div>'
-    The template used as a wrapper
-    tabTemplate: '<div></div>'
-    The template used as a tab
-    tabText: 'E<br/>X<br/>A<br/>M<br/>P<br/>L<br/>E'
-    The tab text
-    openByDefault: [true, false]
-    Defines whether the panel should be open by default or closed
+* __position__: ['top', _'right'_, 'bottom', 'left']
+    * Defines where to put the sliding panel on the webpage.
+* __offset__: {}
+    * Allows to finely tune position, relatively to top, right, bottom or left side of the positioned container, or combination of two (top and right for example: {top: '150px', right: '-10px'})
+* __speed__: 250
+    * Sets the speed of the sliding effect on opening and closing
+* __timeout__: 500
+    * Will wait "timeout" ms before closing the panel after the mouse has left the panel
+* __event__: [_'hover'_, 'click']
+    * Allows to control the panel either by hover or by click
+* __hideTriggerClass__: 'slidingpanel_hide_trigger'
+    * A class to define which element(s) will close the panel (useful only with openByDefault: true)
+* __wrapperClass__: 'slidingpanel_wrapper'
+    * The CSS class applied to the sliding panel wrapper
+* __slidingElementClass__: 'slidingpanel_element'
+    * The CSS class applied to the sliding panel
+* __tabClass__: 'slidingpanel_tab'
+    * The CSS class applied to the tab allowing mouseover
+* __wrapperTemplate__: '<div></div>'
+    * The template used as a wrapper
+* __tabTemplate__: '<div></div>'
+    * The template used as a tab
+* __tabText__: 'E<br/>X<br/>A<br/>M<br/>P<br/>L<br/>E'
+    * The tab text
+* __openByDefault__: [_true_, false]
+    * Defines whether the panel should be open by default or closed
