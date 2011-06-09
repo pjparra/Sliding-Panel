@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/* In some cases, you might want to set the tab's width and height, especially with IE. Here, it is not necessary as the tab contents set them correctly */
+.slidingpanel_tab {
+	background-color: #eee;
+	color: #aaa;
+	text-align: center;
+	font-size: 18px;
+	line-height: 22px;
+	cursor: pointer;
+	padding: 2px;
+}

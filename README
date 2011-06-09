@@ -1,0 +1,10 @@
+Sliding Panel is a lightweight, unobtrusive, yet extremely useful and effective jQuery plugin.
+
+Its goal is to provide a simple way to turn any DOM element into a retractable, sliding panel. It was created to fulfill the need of showing examples on unoome (in french only for the moment), a service aimed at small/medium enterprises/associations with no IT skill to easily create websites. So a really easy and intuitive help was needed, and that's how Sliding Panel was born.
+
+Hopefully, it was designed with extensibility in mind, so you can use it not only to display help or examples, but also to display anything you want : an options panel for example. Just call :
+View Raw Code?
+
+    $(your_DOM_element).slidingPanel();
+
+And you're ready to go. The flexibility given by the settings should allow you to tune the plugin the way you like. Of course, it comes with a default CSS, but you can customize it to make it fit your needs.
